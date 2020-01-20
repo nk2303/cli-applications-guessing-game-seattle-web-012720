@@ -2,5 +2,8 @@
 def run_guessing_game
   num = rand(1..6)
   puts ""
-  gets.chomp
+  guess = gets.chomp
+  if num == guess
+    
+  end
 end

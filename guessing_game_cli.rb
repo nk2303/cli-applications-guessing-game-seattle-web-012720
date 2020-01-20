@@ -6,6 +6,6 @@ def run_guessing_game
   if num == guess
     print "You guessed the correct number!"
   elsif num != guess
-    
+    print "Sorry! The computer guessed <number>."
   end
 end

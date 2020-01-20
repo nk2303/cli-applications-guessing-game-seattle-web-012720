@@ -4,6 +4,6 @@ def run_guessing_game
   puts ""
   guess = gets.chomp
   if num == guess
-    
+    print "You guessed the correct number!"
   end
 end
